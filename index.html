@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+
+
+    <style>
+       
+      
+        
+        
+</style>        
+
+
+
+
+</head>
+<body class="general">
+    <header>
+        <nav class="nav" id="navbar">
+            <div class="nav_container">
+      
+              <h1 class="nav_logo"><a href="#">Martí Corbalan</a> </h1>
+<!--este label haga referencia con el for al input de abajo, tienen que ir seguidos-->
+              <label for="menu" class="nav_label " id="hamburguer">
+                  <img src="../assets/menu.svg" class="nav_img">
+              </label>
+<!--una vez das click a este elemento, se activara la pseudoclase checked
+    que es cuando el checkbox esta activo-->
+              <input type="checkbox" id="menu" class="nav_input">
+      
+<!--una vez pase esto, usamos el selector de hermano adyacente en css, 
+    este hermano es el menu-->
+              <div class="nav_menu">
+                  <a href="#quiensoy" class="nav_item">Sobre mi</a>
+                  <a href="#skills" class="nav_item">Skills</a>
+                  <a href="#qualificacions" class="nav_item">Qualificacions</a>
+                  <a href="#exp-laboral" class="nav_item">Experiència laboral</a>
+                  <a href="#contacte" class="nav_item">Contacte</a>
+              </div>
+
+             
+    
+            </div>  
+          </nav>
+          <div class="nav_menu2 menu-hidden">
+            <a href="#quiensoy" class="nav_item">Sobre mi</a>
+            <a href="#skills" class="nav_item">Skills</a>
+            <a href="#qualificacions" class="nav_item">Qualificacions</a>
+            <a href="#exp-laboral" class="nav_item">Experiència laboral</a>
+            <a href="#contacte" class="nav_item">Contacte</a>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section class="contenedor " id="quiensoy">
+            
+                <br>
+                
+                
+            <div class="fons-subtitul wi">
+                <h2 class="subtitulo">WEB DEVELOPER</h2>
+                
+            </div>
+            <br><br>
+        
+            <div class="contenedor-servicio1 " >
+                <h2 class="subtitulo2">Qui soc</h2>
+                
+                    <img src="img/perfil.png" alt="" class="logo2">
+                
+                
+                
+                <br>
+                <div class="qui-soc">
+                    <h3>Personal:</h3>
+                    <p>Em dic Martí Corbalan, soc de Mataró i actualment tinc 20 anys. </p>
+                    <h3>Estudis:</h3>
+                    <p>Cicle mitjà de Xarxes microinformatiques</p>
+                    <p>Grau Superior de desenvolupament d'aplicacions multiplataforma</p>
+                    <h3>Habilitats:</h3>
+                    <p>Desenvolupador front-end i aprenent en UI/UX, tinc experiència en WordPress</p>
+                    <h3>Idiomes:</h3>
+                    <p>Català - natiu</p>
+                    <p>Castellà - natiu</p>
+                    <p>Anglès - mitj</p>
+                    <a href="pdf/CVMARTÍCORBALAN.pdf" download="">
+                        <button class="btn btn-primary">Descarregar CV</button>
+                      </a>
+                </div>
+            </div>
+            <div class="contenedor-servicio ">
+                
+                <img src="img/webdeveloper.svg" alt="" class="imgdev">
+                <img src="img/Gaming.svg" alt="" class="imgdev1">
+                <img src="img/music2.PNG" alt="" class="imgdev2">
+                
+                <div class="quiensoy-servicio" >
+                    <div class="service" >
+                        <h2 class="subtitulo1">Que m'agrada?</h2>
+                        <br><br>
+                        <h3 class="n-quiensoy" ><span><span class="number" >1</span>Disseny Web</h3>
+                        <p>M'agrada dissenyar pàgines web, sobretot els llenguatges HTML, CSS i JS <br> Encara estic aprenent a dissenyar pofessional-ment </p>
+                    </div>
+                    
+                    <div class="service">
+                        <h3 class="n-quiensoy"><span><span class="number">2</span>Video Jocs</h3>
+                        <p>Els videojocs que més m'agraden són els shooters, el League of Legends i els jocs com Little Nightmares o It Takes Two</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-quiensoy"><span><span class="number">3</span>Música</h3>
+                        <p>M'agrada quasi qualsevol tipus de música, però la que més m'agrada és el rap i el trap</p>
+                    </div>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <hr>
+    <!--================== SKILLS ========================-->
+    <main>
+
+    
+    <section class="contenedor " id="skills" >
+       <br>
+        <div class="fons-subtitul1 wi" >
+            <h2 class="subtitulo">SKILLS</h2>
+        </div>
+        <br><br>
+        <div class="skills_list grid">
+            <div class="skills_data">
+                <div class="skills_titles">
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number">80%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                </div>
+                <div class="skills_bar">
+                    <span class="skills_percentage skills_html"></span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_titles">
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number">60%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skills_bar">
+                    <span class="skills_percentage skills_css"></span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_titles">
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_number">30%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skills_bar">
+                    <span class="skills_percentage skills_js"></span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <div class="skills_titles">
+                    <h3 class="skills_name">REACT</h3>
+                    <span class="skills_number">20%</span>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skills_bar">
+                    <span class="skills_percentage skills_react"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+    <hr>
+
+    <!--================== QUALIFICATION =================-->
+    
+    <section class="qualification section " id="qualificacions">
+        <br>
+        <div class="fons-subtitul1 wi" >
+            <h2 class="subtitulo">QUALIFICACIONS</h2>
+        </div>
+        <br>
+        <div class="timeline">
+            <div class="container1 right">
+                <div class="content">
+                    <h2>2021 - 2022</h2>
+                    <p>Disseny Web UI/UIX</p>
+                    <p>Autodidàcte</p>
+                  </div>
+            </div>
+            <div class="container1 left">
+              <div class="content">
+                <h2>2019-2021</h2>
+                <p>C.F. Grau superior: Desenvolupament d'aplicacions multiplataforma</p>
+                <p>Escola Pia Santa Anna Mataró</p>
+              </div>
+            </div>
+           
+            <div class="container1 right">
+                <div class="content">
+                    <h2>2017 - 2019</h2>
+                    <p>C.F. Grau mitjà: Sistemes microinformàtics i xarxes.</p>
+                    <p>Escola Pia Santa Anna Mataró</p>
+                  </div>
+            </div>
+            
+          </div>
+<br>
+    </section>
+
+    <hr>
+    <!--================= EXPERIENCIA LABORAL ============-->
+    <main>
+    <section class=" contenedor about-us " id="exp-laboral">
+       <br>
+        <div class="fons-subtitul3 wi" >
+            <h2 class="subtitulo">EXPERIÈNCIA LABORAL</h2>
+        </div>
+
+        <div class="contenedor1">
+            <div class="contenedor-articulo">
+                <div class="articulo">
+                    <h3>Programador Junior (Pràctiques)</h3>
+                    <p>Extreme Micro (Mataró) <br> Març 2021 - Juny 2021 </p>
+                    <dl>
+ 
+                        <dd>- Desenvolupament Web</dd>
+                        
+                        <dd>- ERP (Odoo)</dd>
+
+                        <dd>- WordPress</dd>
+                      </dl>
+
+                    
+                </div>
+                <div class="articulo">
+                    <h3>Tècnic informàtic (Pràctiques)</h3>
+                    <p>Megastore Datasystem (Mataró) <br> octubre 2017 - Gener 2018 </p>
+                    <dl>
+ 
+                        <dd>- Suport tant en Hardware com en Software</dd>
+                        
+                        <dd>- Instal·lació, manteniment i reparació d'ordinadors.</dd>
+
+                      </dl>
+                </div>
+                <div class="articulo">
+                    <h3>Desenvolupador Web UI/UIX</h3>
+                    <p>La Volta Mataró</p>
+                    
+                    <dl>
+                        <dd>- Actualització completa de la pàgina web i manteniment de la mateixa</dd>
+                    </dl>
+                    <button class="btn btn-outline-info" style="color: black;">
+                        <a href="http://www.lavoltamataro.cat/">La Volta Mataró</a>
+                    </button>
+                    
+                </div>
+                <div class="articulo">
+                    <h3>Desenvolupador Web UI/UIX</h3>
+                    <p>Tecnotrade Group </p>
+                    <dl>
+ 
+                        <dd>- Actualització completa de la pàgina web</dd>
+
+                    </dl>
+                    <button class="btn btn-outline-info" style="color: black;">
+                        <a href="https://tecnotradegroup.com/">Tecnotrade Group</a>
+                    </button>
+                </div>
+                <div class="articulo">
+                    <h3>Desenvolupador Web </h3>
+                    <p>Dea Essence </p>
+                    <dl>
+ 
+                        <dd>- Actualització i maquetació completa de la pàgina web i manteniment de la mateixa</dd>
+
+                    </dl>
+                    <button class="btn btn-outline-info" style="color: black;">
+                        <a href="https://deaessence.com/">Dea Essence</a>
+                    </button>
+                </div>
+                <div class="articulo">
+                    <h3>Desenvolupador Web</h3>
+                    <p>Saed </p>
+                    <dl>
+ 
+                        <dd>- Actualització i maquetació completa de la pàgina web</dd>
+                        
+                    </dl>
+                    <button class="btn btn-outline-info" style="color: black;">
+                        <a href="https://web.saedpv.com/sobre-nosotros/">Saed.cat</a>
+                    </button>
+                </div>
+            </div>
+             
+        </div>
+        
+    </section>
+</main>
+<hr>
+    <!--================= FORM ==========================-->
+    <main>
+    <section class="contenedor formulario " id="contacte">
+       <br>
+            <h2 class="formu">Formulari de contacte</h2> <br>
+        
+            
+             
+
+                <div class="fons-form">
+                    <form class="formulari" action="https://formcarry.com/s/vLzVRIRee8y" target="_blank" method="post" id="myForm">
+                        <label for="fname">Nom:</label><br>
+                        <input type="text" id="name" name="fname" value="" required><br>
+    
+                        <label for="lname">Segon Cognom:</label><br>
+                        <input type="text" id="lastname" name="lname" value="" required><br>
+    
+                        <label for="lname">Email:</label><br>
+                        <input type="email" id="mail" name="lname" value="" required><br>
+    
+                        <label for="lname">telèfon:</label><br>
+                        <input type="tel" id="phone" name="lname" value="" placeholder="123-45-6780" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" required><br><br>
+    
+                        
+                        <button class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            
+        
+        
+
+        <br><br>
+
+    </section>
+    </main>
+
+    <!--=========== FOOTER ================-->
+<hr>
+    <footer class="footer">
+        
+             <div class="contact-us">
+                
+                <h2 class="brand">Contacte:</h2>
+                <p class="jo">martilluc01@gmail.com</p>
+                <br>
+                <p class="createdby">Created by Martí Corbalan Cruz</p>  
+            </div>
+            
+            
+            <div class="social-media">
+                <h2 class="brand1">Xarxes Socials</h2>
+                <a href="https://instagram.com/corba01/" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://github.com/MartiCorbalan?" class="social-media-icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                
+            </div>
+
+        
+           
+        
+    </footer>
+
+    
+    
+   
+    
+   <!--<a href="https://www.w3schools.com/"><img src="/projecte1/img/user.png"></a>--> 
+
+   <script src="js/main.js"></script>
+  <!-- <script src="/projecte1/js/menu.js"></script> -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+  
+</body>
+</html>
